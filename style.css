@@ -149,7 +149,13 @@ a:hover {
    text-align: center;
    
   }
-  body{
-    text-align: center;
+  .intro{
+    color: #0d8989;
+  }
+  .code-develop-description{
+    color: #0d8989;
+  }
+  .Web-develop-description{
+    color: #0d8989;
   }
 }
