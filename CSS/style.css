@@ -1,5 +1,5 @@
 body {
-  color: #40514e;
+  color: #00fbcd;
   margin: 0;
   text-align: center;
   font-family: "Helvetica neue", Helvetica, Arial, sans-serif, verdana,
@@ -126,4 +126,30 @@ a:hover {
 .btn:active {
   position: relative;
   top: 1px;
+}
+@media (max-width: 650px) {
+  .mountain {
+    width: 50%;
+    position: static;
+    left: 50%;
+  }
+  .bottom-cloud {
+    position: static;
+    width: 30%;
+    margin-bottom: 20%;
+  }
+  .top-cloud{
+    left: 20%;
+  }
+  .top-container {
+   width: 600px;
+  }
+  .bottom-container{
+    width: 600px;
+   text-align: center;
+   
+  }
+  body{
+    text-align: center;
+  }
 }
