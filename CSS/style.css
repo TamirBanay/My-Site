@@ -25,6 +25,7 @@ h3 {
   color: #11999e;
 
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 p {
   line-height: 2;
@@ -127,10 +128,15 @@ a:hover {
   position: relative;
   top: 1px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 964d244fe0074731b7272074f2b4728409329df0
 @media (max-width: 650px) {
   .mountain {
     width: 50%;
     position: static;
+<<<<<<< HEAD
     left: 50%;
   }
   .bottom-cloud {
@@ -151,5 +157,13 @@ a:hover {
   }
   body{
     text-align: center;
+=======
+  }
+  .bottom-cloud {
+    position: static;
+
+    left: 25px;
+    top: 70%;
+>>>>>>> 964d244fe0074731b7272074f2b4728409329df0
   }
 }
