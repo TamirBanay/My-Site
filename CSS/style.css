@@ -25,6 +25,7 @@ h3 {
   color: #11999e;
 
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 p {
   line-height: 2;
@@ -136,8 +137,7 @@ a:hover {
   .bottom-cloud {
     position: static;
 
-    left: 250px;
+    left: 25px;
     top: 70%;
-
   }
 }
