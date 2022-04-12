@@ -144,6 +144,19 @@
       position: relative;
       top: 1px;
     }
+
+    @media (max-width: 650px) {
+      .mountain {
+        width: 50%;
+        position: static;
+      }
+      .bottom-cloud {
+        position: static;
+
+        left: 250px;
+        top: 70%;
+      }
+    }
   </style>
 
   <body>
@@ -163,7 +176,11 @@
         src="https://www.linkpicture.com/q/cloud_8.png"
         alt="cloud-img"
       />
-      <img src="https://www.linkpicture.com/q/mountain_6.png" alt="cloud-img" />
+      <img
+        class="mountain"
+        src="https://www.linkpicture.com/q/mountain_6.png"
+        alt="mountain-img"
+      />
     </div>
     <div class="middle-container">
       <div class="profile">
