@@ -138,24 +138,32 @@ a:hover {
     width: 30%;
     margin-bottom: 20%;
   }
-  .top-cloud{
+  .top-cloud {
     left: 20%;
   }
   .top-container {
-   width: 600px;
-  }
-  .bottom-container{
     width: 600px;
-   text-align: center;
-   
+    
   }
-  .intro{
+  .bottom-container {
+    width: 600px;
+    text-align: center;
+ 
+  }
+  .intro {
     color: #0d8989;
   }
-  .code-develop-description{
+  .code-develop-description {
     color: #0d8989;
   }
-  .Web-develop-description{
+  .Web-develop-description {
     color: #0d8989;
+  }
+  .middle-container {
+    margin-left: 20%;
+  }
+  .skills {
+    margin-left: 20%;
+    
   }
 }
