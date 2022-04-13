@@ -173,3 +173,14 @@ a:hover {
     margin-left: 20%;
   }
 }
+@media (min-width: 1800px){
+.bottom-hr{
+
+margin-right: 0px;
+
+}
+.code-img{
+ height: 250px;
+}
+
+}
