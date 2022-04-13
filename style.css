@@ -87,7 +87,6 @@ a:hover {
   width: 35%;
   float: left;
   margin-right: 0px;
-  
 }
 .web-img {
   width: 25%;
@@ -146,12 +145,10 @@ a:hover {
   }
   .top-container {
     width: 600px;
-    
   }
   .bottom-container {
     width: 600px;
     text-align: center;
- 
   }
   .intro {
     color: #0d8989;
@@ -167,20 +164,24 @@ a:hover {
   }
   .skills {
     margin-left: 20%;
-    
   }
-  .contact-me{
+  .contact-me {
     margin-left: 20%;
   }
 }
-@media (min-width: 1800px){
-.bottom-hr{
-
-margin-right: 0px;
-
+@media (min-width: 1800px) {
+  .bottom-hr {
+    margin-right: 0px;
+  }
+  .code-img {
+    height: 250px;
+  }
 }
-.code-img{
- height: 250px;
-}
-
+@media (max-width: 650px) {
+  #skill-code {
+    text-align: left;
+  }
+  #skill-web {
+    text-align: right;
+  }
 }
