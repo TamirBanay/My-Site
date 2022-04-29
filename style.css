@@ -1,5 +1,5 @@
 body {
-  color: #00fbcd;
+  color: #40514e;
   margin: 0;
   text-align: center;
   font-family: "Helvetica neue", Helvetica, Arial, sans-serif, verdana,
@@ -42,6 +42,10 @@ a {
   margin: 10px 20px;
   text-decoration: none;
 }
+.skills {
+  position: relative;
+}
+
 a:hover {
   color: #eaf6f6;
 }
@@ -63,7 +67,7 @@ a:hover {
 .intro {
   width: 50%;
   margin: auto;
-  color: #11999e;
+  font-size: large;
 }
 
 .bottom-cloud {
@@ -81,22 +85,25 @@ a:hover {
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
-  color: #11999e;
 }
 .code-img {
-  width: 35%;
+  width: 30%;
   float: left;
   margin-right: 0px;
+  margin-bottom: 20%;
 }
+.code-develop-title {
+  text-align: left;
+}
+.Full-Stack-Title {
+  text-align: left;
+}
+
 .web-img {
-  width: 25%;
-  float: right;
-  margin-left: 60px;
-  margin-right: 10%;
-  margin-bottom: 20px;
-}
-.Web-develop-description {
-  clear: left;
+  width: 10%;
+  left: 67%;
+  position: absolute;
+  top: 70%;
 }
 .contact-message {
   width: 40%;
@@ -107,7 +114,7 @@ a:hover {
 }
 
 .btn {
-  box-shadow: 0px 0px 0px 2px #11999e;
+  box-shadow: 0px 0px 0px 2px #0d8989;
   background: linear-gradient(to bottom, #476e9e 5%, #476e9e 100%);
   background-color: #7892c2;
   border-radius: 8px;
@@ -129,59 +136,20 @@ a:hover {
   position: relative;
   top: 1px;
 }
+
 @media (max-width: 650px) {
   .mountain {
     width: 50%;
     position: static;
-    left: 50%;
   }
   .bottom-cloud {
     position: static;
-    width: 30%;
-    margin-bottom: 20%;
+
+    left: 25px;
+    top: 70%;
   }
   .top-cloud {
-    left: 20%;
-  }
-  .top-container {
-    width: 600px;
-  }
-  .bottom-container {
-    width: 600px;
-    text-align: center;
-  }
-  .intro {
-    color: #0d8989;
-  }
-  .code-develop-description {
-    color: #0d8989;
-  }
-  .Web-develop-description {
-    color: #0d8989;
-  }
-  .middle-container {
-    margin-left: 20%;
-  }
-  .skills {
-    margin-left: 20%;
-  }
-  .contact-me {
-    margin-left: 20%;
-  }
-}
-@media (min-width: 1800px) {
-  .bottom-hr {
-    margin-right: 0px;
-  }
-  .code-img {
-    height: 250px;
-  }
-}
-@media (max-width: 650px) {
-  #skill-code {
-    text-align: left;
-  }
-  #skill-web {
-    text-align: right;
+    position: static;
+    right: 20%;
   }
 }
