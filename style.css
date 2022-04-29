@@ -143,13 +143,16 @@ a:hover {
     position: static;
   }
   .bottom-cloud {
-    position: static;
-
     left: 25px;
     top: 70%;
   }
   .top-cloud {
     position: static;
     right: 20%;
+  }
+  .web-img{
+    position: static;
+    width: 25%;
+
   }
 }
